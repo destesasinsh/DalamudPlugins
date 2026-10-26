@@ -7,7 +7,7 @@
 游戏内输入 `/xlplugins` → `Settings` → `Experimental` → 在 **Custom Plugin Repositories** 添加：
 
 ```
-https://raw.githubusercontent.com/denghaoxuan991876906/DalamudPlugins/main/pluginmaster.json
+https://raw.githubusercontent.com/destesasinsh/DalamudPlugins/main/pluginmaster.json
 ```
 
 ## 目录结构
@@ -24,7 +24,7 @@ pluginmaster.json                             # 生成产物，勿手改
 插件元数据 JSON 只写基础字段（`Author`/`Name`/`InternalName`/`AssemblyVersion`/`Description`/`Punchline`/`RepoUrl`/`Tags`/`DalamudApiLevel` 等）。`DownloadLinkInstall`/`DownloadLinkUpdate`/`LastUpdate` 由脚本自动补全，指向本仓库 Release：
 
 ```
-https://github.com/denghaoxuan991876906/DalamudPlugins/releases/download/<InternalName>-v<AssemblyVersion>/latest.zip
+https://github.com/destesasinsh/DalamudPlugins/releases/download/<InternalName>-v<AssemblyVersion>/latest.zip
 ```
 
 ## 新增插件（维护者）
@@ -42,7 +42,7 @@ https://github.com/denghaoxuan991876906/DalamudPlugins/releases/download/<Intern
   env:
     GH_TOKEN: ${{ secrets.DALAMUDPLUGINS_PAT }}
   run: |
-    gh api -X POST /repos/denghaoxuan991876906/DalamudPlugins/dispatches \
+    gh api -X POST /repos/destesasinsh/DalamudPlugins/dispatches \
       -f event_type=publish-plugin \
       -f client_payload[internal_name]=MyPlugin \
       -f client_payload[version]=1.0.0.0 \
@@ -56,6 +56,6 @@ https://github.com/denghaoxuan991876906/DalamudPlugins/releases/download/<Intern
 `repository_dispatch` 跨仓库触发，`GITHUB_TOKEN` 不够用。需新建凭据加到**各插件源仓库**的 Secret（名为 `DALAMUDPLUGINS_PAT`），且该凭据必须能写 **DalamudPlugins（本仓库）**：
 
 - **Classic PAT**（最简单可靠）：勾选 `repo` scope 即可触发 dispatch。
-- 或 **Fine-grained PAT**：Repository access **必须选中** `denghaoxuan991876906/DalamudPlugins`，权限开 `Contents: Read and write` + `Metadata: Read`（dispatch 端点归属于 Contents 权限；漏选目标仓库，或只给 Actions: Write，都会报 `403 Resource not accessible`）。
+- 或 **Fine-grained PAT**：Repository access **必须选中** `destesasinsh/DalamudPlugins`，权限开 `Contents: Read and write` + `Metadata: Read`（dispatch 端点归属于 Contents 权限；漏选目标仓库，或只给 Actions: Write，都会报 `403 Resource not accessible`）。
 
 > 也可以在本仓库 Actions 页用 `workflow_dispatch` 手动触发 `Publish Plugin`，填入 `internal_name` / `version` / `zip_url` 来发布或重新发布某个版本。

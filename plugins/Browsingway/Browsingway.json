@@ -6,7 +6,7 @@
   "Punchline": "GPU-accelerated browser overlays in-game, with external IPC API.",
   "Description": "GPU-accelerated browser overlays with external IPC API for plugin control. Based on BrowserHost by ackwell.",
   "ApplicableVersion": "any",
-  "RepoUrl": "https://github.com/denghaoxuan991876906/Browsingway",
+  "RepoUrl": "https://github.com/destesasinsh/Browsingway",
   "Tags": [
     "browser",
     "overlay",

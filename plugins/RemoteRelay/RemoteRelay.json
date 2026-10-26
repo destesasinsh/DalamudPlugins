@@ -6,7 +6,7 @@
   "Punchline": "遥控指令中继",
   "Description": "房间管理 / 玩家职能 / 指令分发 / IPC 提供方。",
   "ApplicableVersion": "any",
-  "RepoUrl": "https://github.com/denghaoxuan991876906/RemoteRelay",
+  "RepoUrl": "https://github.com/destesasinsh/RemoteRelay",
   "Tags": [
     "combat",
     "auto"

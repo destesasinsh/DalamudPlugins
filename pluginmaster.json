@@ -7,7 +7,7 @@
     "Punchline": "GPU-accelerated browser overlays in-game, with external IPC API.",
     "Description": "GPU-accelerated browser overlays with external IPC API for plugin control. Based on BrowserHost by ackwell.",
     "ApplicableVersion": "any",
-    "RepoUrl": "https://github.com/denghaoxuan991876906/Browsingway",
+    "RepoUrl": "https://github.com/destesasinsh/Browsingway",
     "Tags": [
       "browser",
       "overlay",
@@ -17,8 +17,8 @@
     ],
     "DalamudApiLevel": 15,
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/denghaoxuan991876906/DalamudPlugins/releases/download/Browsingway-v1.7.5.0/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/denghaoxuan991876906/DalamudPlugins/releases/download/Browsingway-v1.7.5.0/latest.zip",
+    "DownloadLinkInstall": "https://github.com/destesasinsh/DalamudPlugins/releases/download/Browsingway-v1.7.5.0/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/destesasinsh/DalamudPlugins/releases/download/Browsingway-v1.7.5.0/latest.zip",
     "LastUpdate": 1783845157,
     "IsHide": "False",
     "IsTestingExclusive": "False"
@@ -31,7 +31,7 @@
     "Punchline": "FF14 全栈战斗辅助 — ACR/执行轴/事实轴/智能决策",
     "Description": "HiAuRo 是一个全栈战斗辅助框架，提供 ACR 接口、执行轴、事实轴、智能决策层和完整的 UI 系统。ACR 作者可开发各职业的战斗逻辑，普通用户也可通过内置轴获得完整的战斗辅助体验。",
     "ApplicableVersion": "any",
-    "RepoUrl": "https://github.com/denghaoxuan991876906/HiAuRo",
+    "RepoUrl": "https://github.com/destesasinsh/HiAuRo",
     "Tags": [
       "combat",
       "rotation",
@@ -43,8 +43,8 @@
     ],
     "DalamudApiLevel": 15,
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/denghaoxuan991876906/DalamudPlugins/releases/download/HiAuRo-v0.2.36.0/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/denghaoxuan991876906/DalamudPlugins/releases/download/HiAuRo-v0.2.36.0/latest.zip",
+    "DownloadLinkInstall": "https://github.com/destesasinsh/DalamudPlugins/releases/download/HiAuRo-v0.2.36.0/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/destesasinsh/DalamudPlugins/releases/download/HiAuRo-v0.2.36.0/latest.zip",
     "LastUpdate": 1784160532,
     "IsHide": "False",
     "IsTestingExclusive": "False"
@@ -57,7 +57,7 @@
     "Punchline": "MCP服务插件",
     "Description": "MCP(Model Context Protocol)服务插件，让AI工具获取FFXIV游戏实时数据、操作角色/系统，以及与插件交互测试。",
     "ApplicableVersion": "any",
-    "RepoUrl": "https://github.com/denghaoxuan991876906/MCPforDalamud",
+    "RepoUrl": "https://github.com/destesasinsh/MCPforDalamud",
     "Tags": [
       "utility",
       "mcp",
@@ -66,8 +66,8 @@
     ],
     "DalamudApiLevel": 15,
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/denghaoxuan991876906/DalamudPlugins/releases/download/MCPforDalamud-v0.2.0.0/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/denghaoxuan991876906/DalamudPlugins/releases/download/MCPforDalamud-v0.2.0.0/latest.zip",
+    "DownloadLinkInstall": "https://github.com/destesasinsh/DalamudPlugins/releases/download/MCPforDalamud-v0.2.0.0/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/destesasinsh/DalamudPlugins/releases/download/MCPforDalamud-v0.2.0.0/latest.zip",
     "LastUpdate": 1783717703,
     "IsHide": "False",
     "IsTestingExclusive": "False"
@@ -80,7 +80,7 @@
     "Punchline": "即开即用的角色判定点指示器。",
     "Description": "显示角色判定点，支持圆点/圆环样式与基础显示条件。",
     "ApplicableVersion": "any",
-    "RepoUrl": "https://github.com/denghaoxuan991876906/PixelPerfect",
+    "RepoUrl": "https://github.com/destesasinsh/PixelPerfect",
     "Tags": [
       "判定点",
       "覆盖层",
@@ -88,8 +88,8 @@
     ],
     "DalamudApiLevel": 15,
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/denghaoxuan991876906/DalamudPlugins/releases/download/PixelPerfect-v3.3.4.1/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/denghaoxuan991876906/DalamudPlugins/releases/download/PixelPerfect-v3.3.4.1/latest.zip",
+    "DownloadLinkInstall": "https://github.com/destesasinsh/DalamudPlugins/releases/download/PixelPerfect-v3.3.4.1/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/destesasinsh/DalamudPlugins/releases/download/PixelPerfect-v3.3.4.1/latest.zip",
     "LastUpdate": 1782588154,
     "IsHide": "False",
     "IsTestingExclusive": "False"
@@ -102,15 +102,15 @@
     "Punchline": "遥控指令中继",
     "Description": "房间管理 / 玩家职能 / 指令分发 / IPC 提供方。",
     "ApplicableVersion": "any",
-    "RepoUrl": "https://github.com/denghaoxuan991876906/RemoteRelay",
+    "RepoUrl": "https://github.com/destesasinsh/RemoteRelay",
     "Tags": [
       "combat",
       "auto"
     ],
     "DalamudApiLevel": 15,
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/denghaoxuan991876906/DalamudPlugins/releases/download/RemoteRelay-v0.1.5.6/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/denghaoxuan991876906/DalamudPlugins/releases/download/RemoteRelay-v0.1.5.6/latest.zip",
+    "DownloadLinkInstall": "https://github.com/destesasinsh/DalamudPlugins/releases/download/RemoteRelay-v0.1.5.6/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/destesasinsh/DalamudPlugins/releases/download/RemoteRelay-v0.1.5.6/latest.zip",
     "LastUpdate": 1782302404,
     "IsHide": "False",
     "IsTestingExclusive": "False"

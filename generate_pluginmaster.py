@@ -12,7 +12,7 @@ import subprocess
 import glob
 from pathlib import Path
 
-META_REPO = "denghaoxuan991876906/DalamudPlugins"
+META_REPO = "destesasinsh/DalamudPlugins"
 
 
 def last_commit_ts(path: str) -> int:
