@@ -90,7 +90,7 @@
     "AcceptsFeedback": true,
     "DownloadLinkInstall": "https://github.com/destesasinsh/DalamudPlugins/releases/download/PixelPerfect-v3.3.5.0/latest.zip",
     "DownloadLinkUpdate": "https://github.com/destesasinsh/DalamudPlugins/releases/download/PixelPerfect-v3.3.5.0/latest.zip",
-    "LastUpdate": 1793029556,
+    "LastUpdate": 1793029919,
     "IsHide": "False",
     "IsTestingExclusive": "False"
   },
@@ -111,7 +111,7 @@
     "AcceptsFeedback": true,
     "DownloadLinkInstall": "https://github.com/destesasinsh/DalamudPlugins/releases/download/RemoteRelay-v0.1.6.0/latest.zip",
     "DownloadLinkUpdate": "https://github.com/destesasinsh/DalamudPlugins/releases/download/RemoteRelay-v0.1.6.0/latest.zip",
-    "LastUpdate": 1793029556,
+    "LastUpdate": 1793029919,
     "IsHide": "False",
     "IsTestingExclusive": "False"
   }
